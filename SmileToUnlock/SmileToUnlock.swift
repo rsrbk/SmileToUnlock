@@ -202,7 +202,7 @@ extension SmileToUnlock: ARSCNViewDelegate {
                         UIView.animate(withDuration: 0.5, animations: {
                             self.checkmarkView.alpha = 1.0
                         }, completion: { _ in
-                            //self.onSuccess?()
+                            self.onSuccess?()
                         })
                     }
                 }
