@@ -2,7 +2,7 @@ SmileToUnlock ![Pod status](https://cocoapod-badges.herokuapp.com/v/SmileToUnloc
 ---
 Make your users smile before opening the app :)
 <p align="center">
-  <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Resources/gif.gif?raw=true" alt="Demo gif"/>
+  <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/gif.gif?raw=true" alt="Demo gif"/>
 </p>
 
 Installation
@@ -66,7 +66,9 @@ public enum SmileToUnlockBackground {
 }
 ```
 
-<img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Resources/blue.png?raw=true" alt="Blue"/> <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Resources/red.png?raw=true" alt="Red"/> <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Resources/purple.png?raw=true" alt="Purple"/>
+<p align="center">
+    <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/blue.png?raw=true" alt="Blue"/> <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/red.png?raw=true" alt="Red"/> <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/purple.png?raw=true" alt="Purple"/>
+</p>
 
 Check out my other libraries
 --
