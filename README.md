@@ -23,13 +23,14 @@ First of all, you have to add NSCameraUsageDescription to you Info.plist with a 
 Then you need to check if a user's device has the face tracking support:
 ```swift
 if SmileToUnlock.isSupported {
+}
 ```
 Keep in mind that only iPhone X (a real device, not even a stimulator!) has this support currently.
 
 Then just create an instance of the SmileToUnlock and specify the success handler:
 ```swift
 if SmileToUnlock.isSupported {
-let vc = SmileToUnlock()
+    let vc = SmileToUnlock()
     vc.onSuccess = {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateInitialViewController()!
