@@ -3,6 +3,7 @@ SmileToUnlock ![Pod status](https://cocoapod-badges.herokuapp.com/v/SmileToUnloc
 Make your users smile before opening the app :)
 <p align="center">
   <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/gif.gif?raw=true" alt="Demo gif"/>
+  <br>Gif with the demonstration
 </p>
 
 Installation
