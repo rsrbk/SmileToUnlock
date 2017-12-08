@@ -72,6 +72,13 @@ public enum SmileToUnlockBackground {
     <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/blue.png?raw=true" alt="Blue"/> <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/red.png?raw=true" alt="Red"/> <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/purple.png?raw=true" alt="Purple"/>
 </p>
 
+Feature requests
+--
+If you wish to contribute, look at this topics:
+- Improving the face itself (maybe some 3D model)
+- Adding additional emotions (like eye blinking)
+- Improving the UI of the screen
+
 Check out my other libraries
 --
 
