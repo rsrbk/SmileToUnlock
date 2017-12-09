@@ -79,6 +79,10 @@ If you wish to contribute, look at this topics:
 - Adding additional emotions (like eye blinking)
 - Improving the UI of the screen
 
+Follow me on twitter
+--
+I promise it's gonna be more interesting stuff there! [@rsrbk123](https://twitter.com/rsrbk123)
+
 Check out my other libraries
 --
 
