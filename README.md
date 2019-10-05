@@ -1,23 +1,44 @@
-SmileToUnlock ![Pod status](https://cocoapod-badges.herokuapp.com/v/SmileToUnlock/badge.png)
----
+# SmileToUnlock
+
+[![Cocoapods](https://img.shields.io/cocoapods/v/SmileToUnlock)](https://cocoapods.org/pods/SmileToUnlock) [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+
 Make your users smile before opening the app :)
 <p align="center">
   <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/gif.gif?raw=true" alt="Demo gif"/>
   <br>Gif with the demonstration
 </p>
 
-Installation
----
+## Installation
+
+### Cocoapods
 The most preferable way to use this library is cocoapods. Add the following line to your `Podfile`:
 ```sh
 pod 'SmileToUnlock'
 ```
 and run `pod install` in your terminal.
 
-Alternatively, you can manually add the files in the `SmileToUnlock` directory to your project.
+### Swift Package Manager
+Add the following as a dependency to your `Package.swift:
+```swift
+.package(url: "https://github.com/rsrbk/SmileToUnlock.git", from: "1.0.3")
+```
+and then specify `"SmileToUnlock"` as a dependency of the Target in which you wish to use SmileToUnlock. Here's an example:
+```swift
+ let package = Package(
+     name: "Example",
+     dependencies: [
+         .package(url: "https://github.com/rsrbk/SmileToUnlock.git", from: "1.0.3")
+     ],
+     targets: [
+         .target(name: "Example", dependencies: ["SmileToUnlock"])
+     ]
+ )
+ ```
 
-Usage
---
+### Manually
+Add the files in the `SmileToUnlock` directory to your project.
+
+## Usage
 First of all, you have to add NSCameraUsageDescription to you Info.plist with a brief explanation.
 
 Then you need to check if a user's device has the face tracking support:
@@ -72,25 +93,21 @@ public enum SmileToUnlockBackground {
     <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/blue.png?raw=true" alt="Blue"/> <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/red.png?raw=true" alt="Red"/> <img src="https://github.com/rsrbk/SmileToUnlock/blob/master/Previews/purple.png?raw=true" alt="Purple"/>
 </p>
 
-Feature requests
---
+## Feature requests
 If you wish to contribute, look at this topics:
 - Improving the face itself (maybe some 3D model)
 - Adding additional emotions (like eye blinking)
 - Improving the UI of the screen
 
-Follow me on twitter
---
+## Follow me on twitter
 I promise it's gonna be more interesting stuff there! [@rsrbk123](https://twitter.com/rsrbk123)
 
-Check out my other libraries
---
+## Check out my other libraries
 
 [SRCountdownTimer](https://github.com/rsrbk/SRCountdownTimer) - a simple circle countdown with a configurable timer.<br>
 [SRAttractionsMap](https://github.com/rsrbk/SRAttractionsMap) - the map with attractions on which you can click and see the full description.
 
-License
---
+## License
  MIT License
 
  Copyright (c) 2017 Ruslan Serebriakov <rsrbk1@gmail.com>
