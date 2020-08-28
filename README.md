@@ -46,7 +46,7 @@ Then you need to check if a user's device has the face tracking support:
 if SmileToUnlock.isSupported {
 }
 ```
-Keep in mind that only iPhone X (a real device, not even a stimulator!) has this support currently.
+Keep in mind that only iPhone X and older (a real device, not even a stimulator!) have this support currently.
 
 Then just create an instance of the SmileToUnlock and specify the success handler:
 ```swift
